@@ -1,0 +1,20 @@
+# 服务端口
+server:
+  port: 9100
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+spring:
+  # zipkin 服务地址
+  zipkin:
+    base-url: http://192.168.0.6:9411
+  # zipkin 采样率
+  sleuth:
+    sampler: 0.1
+  application:
+    # 服务名字
+    name: EurekeCustomer
+
+
