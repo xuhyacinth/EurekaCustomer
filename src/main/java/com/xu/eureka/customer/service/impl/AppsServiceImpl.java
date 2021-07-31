@@ -1,10 +1,10 @@
 package com.xu.eureka.customer.service.impl;
 
-import com.xu.eureka.customer.service.AppsFeignService;
-import com.xu.eureka.customer.service.AppsService;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.xu.eureka.customer.service.AppsFeignService;
+import com.xu.eureka.customer.service.AppsService;
 
 /**
  * <p>
